@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors'); // Importa il pacchetto cors
 
 const app = express();
-const port = 3000;
+const port = 3001;
 
 // Configurazione del client PostgreSQL
 const client = new Client({
