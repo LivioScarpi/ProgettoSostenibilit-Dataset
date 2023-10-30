@@ -9,7 +9,10 @@ const port = 3001;
 const client = new Client({
     user: 'livio',
     host: 'localhost',
-    database: 'WorldAroundYou',
+
+    //database: 'WorldAroundYou',
+
+    database: 'postgres',
     password: 'Stratocaster99',
     port: 5432,
 });
